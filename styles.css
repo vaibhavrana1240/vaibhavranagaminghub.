@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1a1a1a;
+    color: white;
+    text-align: center;
+}
+
+header {
+    background-color: #333;
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.games {
+    padding: 20px;
+}
+
+.game-card {
+    display: inline-block;
+    width: 200px;
+    margin: 15px;
+    background-color: #444;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.game-card img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+footer {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #333;
+}
+.download-btn {
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+    background-color: #ff5722;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.download-btn:hover {
+    background-color: #e64a19;
+}
